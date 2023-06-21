@@ -1,0 +1,275 @@
+menu, a {
+  list-style-type: none;
+  text-decoration: none;
+  margin-right: 2px;
+  padding: 0;
+  float: left;
+  text-align: center;
+  width: 100%;
+  color: whitesmoke;
+}
+menu li, menu ul, a li, a ul {
+  display: inline-block;
+  outline: 1px;
+  width: 100px;
+  line-height: 20px;
+  padding: 10px;
+  margin: 10px;
+}
+menu li:hover, a li:hover {
+  background-color: rgb(29, 28, 28);
+  border-radius: 5px;
+}
+
+body {
+  background-color: #000000;
+}
+
+h1 {
+  color: #ffffff;
+}
+
+.titulo {
+  color: #ffffff;
+  font-size: 5rem;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.conteiner {
+  margin-top: 70px;
+  display: flex;
+}
+.conteiner p {
+  margin: 0px;
+  padding: 65px;
+  color: #ffffff;
+  margin-left: 0px;
+  display: inline-block;
+  border-radius: 5px;
+  font-size: 20px;
+  text-align: justify;
+}
+.conteiner img {
+  float: left;
+  margin-left: 120px;
+  border-radius: 5px;
+  float: left;
+}
+
+div.alex img {
+  border-radius: 15px;
+  float: left;
+  margin-left: 120px;
+  margin-top: 100px;
+}
+div.alex p {
+  margin: 75px;
+  padding: 100px;
+  color: #ffffff;
+  margin-left: 0px;
+  display: flex;
+  border-radius: 15px;
+  font-size: 18px;
+  text-align: justify;
+}
+
+div.jamie img {
+  border-radius: 15px;
+  float: left;
+  margin-left: 120px;
+  margin-top: 0px;
+}
+div.jamie p {
+  margin: 0px;
+  padding: 50px;
+  color: #ffffff;
+  margin-left: 0px;
+  display: flex;
+  border-radius: 15px;
+  font-size: 20px;
+  margin-top: 15px;
+  text-align: justify;
+}
+
+div.matt img {
+  border-radius: 15px;
+  float: left;
+  margin-left: 120px;
+  margin-top: 75px;
+}
+div.matt p {
+  margin: 0px;
+  padding: 50px;
+  color: #ffffff;
+  margin-left: 0px;
+  display: flex;
+  border-radius: 15px;
+  font-size: 19px;
+  text-align: justify;
+  margin-top: 150px;
+}
+
+div.nick {
+  margin-top: 350px;
+}
+div.nick img {
+  border-radius: 15px;
+  float: left;
+  margin-left: 120px;
+  margin-top: 50px;
+}
+div.nick p {
+  margin: 0px;
+  padding: 50px;
+  color: #ffffff;
+  margin-left: 580px;
+  margin-top: 320px;
+  border-radius: 15px;
+  font-size: 19px;
+  text-align: justify;
+}
+
+.iframes {
+  display: flex;
+  flex-flow: wrap;
+  justify-content: space-evenly;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+  color: white;
+}
+
+label {
+  margin-bottom: 10px;
+}
+
+input[type=text],
+input[type=password] {
+  padding: 5px;
+  border-radius: 5px;
+  border: none;
+  margin-bottom: 20px;
+  width: 250px;
+}
+
+input[type=submit] {
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  background-color: rgb(29, 28, 28);
+  color: white;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 576px) {
+  .container {
+    flex-direction: column;
+  }
+  .container img {
+    text-align: center;
+    width: 300px;
+    height: 300px;
+    margin-left: 37px;
+  }
+  .historiap {
+    flex-direction: column;
+  }
+  div.alex img {
+    margin-top: 0;
+    height: 350px;
+    width: 350px;
+    margin-left: 7px;
+  }
+  div.alex p {
+    justify-content: center;
+  }
+  div.jaime img {
+    margin: 22px;
+    padding: 0;
+    text-align: center;
+  }
+  div.matt img {
+    max-width: 450px;
+    margin: 35px;
+    padding: 0;
+    text-align: center;
+  }
+  div.matt p {
+    margin-left: 55px;
+  }
+  div.nick img {
+    margin: 30px;
+    padding: 0;
+    text-align: center;
+  }
+  div.nick p {
+    margin-left: 5px;
+    justify-content: center;
+  }
+  div.nick ul {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+  }
+  div.nick h3 {
+    font-size: xx-large;
+  }
+  .container {
+    flex-direction: column;
+  }
+  .container img {
+    text-align: center;
+    width: 500px;
+    height: 500px;
+    margin-left: 37px;
+  }
+  .historiap {
+    flex-direction: column;
+  }
+  div.alex img {
+    margin-top: 0;
+    max-width: 550px;
+    margin-left: 7px;
+  }
+  div.alex p {
+    justify-content: center;
+  }
+  div.jaime img {
+    margin: 22px;
+    padding: 0;
+    text-align: center;
+  }
+  div.matt img {
+    max-width: 450px;
+    margin: 35px;
+    padding: 0;
+    text-align: center;
+  }
+  div.matt p {
+    margin-left: 55px;
+  }
+  div.nick img {
+    margin: 30px;
+    padding: 0;
+    text-align: center;
+  }
+  div.nick p {
+    margin-left: 5px;
+    justify-content: center;
+  }
+  ul {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+  }
+  h3 {
+    font-size: xx-large;
+  }
+}/*# sourceMappingURL=estilo.css.map */

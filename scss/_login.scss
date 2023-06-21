@@ -1,0 +1,29 @@
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    color: white
+  }
+  
+  label {
+    margin-bottom: 10px;
+  }
+  
+  input[type="text"],
+  input[type="password"] {
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 20px;
+    width: 250px;
+  }
+  
+  input[type="submit"] {
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(29, 28, 28);
+    color: white;
+    cursor: pointer;
+  }
